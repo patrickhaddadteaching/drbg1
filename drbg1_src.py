@@ -214,7 +214,7 @@ v_vb1.append(out)
 
 v_box_top=widgets.VBox(v_vb1)    
 
-def print_msg()
+def print_msg():
   print('********************* MESSAGE DE LA PLUS HAUTE IMPORTANCE *********************\n')
   print('La variable encrypted_msg (un tableau de %dx16 bytes) est un message qui est protegee par un masque jetable\n'%nb_traces)
   print('Cette protection est theoriquement impossible a casser\n')
